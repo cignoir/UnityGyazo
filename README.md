@@ -1,6 +1,8 @@
 UnityGyazo
 ==========
 
+![screenshot](http://i.gyazo.com/8f3337ed0fc48fe0f342cda861293ef1.png)
+
 Simple gyazo client for Unity4.6.x/5.x.
 
 ## Usage
