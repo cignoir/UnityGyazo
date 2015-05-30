@@ -25,7 +25,7 @@ public class DemoGUI: MonoBehaviour
 
 				if (GUI.Button (new Rect (0, Screen.height / 3, Screen.width, Screen.height / 3), "Upload screenshot directly")) {
 						var fileName = "screenshot.png";
-						Application.CaptureScreenshot (fileName);
+						Application.CaptureScreenshot (Path.Combine (Application.persistentDataPath, fileName));
 						gyazo.UploadFileAsync (Path.Combine (Application.persistentDataPath, fileName), gyazo.uploadURL);
 				}
 
